@@ -1,0 +1,47 @@
+/*
+* This component provides the breakpoint values.
+*/
+
+/*
+* Uncomment this to use the breakpoints provided.
+
+$breakpoint-narrow: 740px;
+$breakpoint-normal: 980px;
+$breakpoint-wide: 1220px;
+
+// Setting the mixin to be used.
+
+@mixin respond-to($media){
+
+  // This applies to everything under $breakpoint-narrow.
+  @if $media == phone {
+    @media all and (max-width: $breakpoint-narrow) { @content; }
+  }
+
+  // This applies to everything under $breakpoint-normal.
+  @if $media == under-narrow {
+    @media all and (max-width: $breakpoint-normal) { @content; }
+  }
+
+    // This applies to between $breakpoint-narrow and $breakpoint-normal.
+  @else if $media == narrow {
+    @media all and (max-width: $breakpoint-normal) and (min-width: $breakpoint-narrow) { @content; }
+  }
+
+    // This applies to everything between $breakpoint-normal and $breakpoint-wide.
+  @else if $media == desktop {
+    @media all and (min-width: $breakpoint-normal) { @content; }
+  }
+
+    // This applies to everything larger than $breakpoint-wide.
+  @else if $media == wide {
+    @media all and (min-width: $breakpoint-wide) { @content; }
+  }
+
+    // This applies to all.
+  @else if $media == all {
+    @content;
+  }
+}
+
+*/
