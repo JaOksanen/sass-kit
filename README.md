@@ -1,6 +1,7 @@
-/*
-* This is a readme for the SCSS structure by jOksanen sponsored by Realityloop.
-*/
+# Sass-kit - A starter kit for SASS/Compass with Globbing!
+
+A simple starter kit for SASS with globbing configured and structure in place
+by jOksanen @ Realityloop 2015.
 
 Copy everything inside the main folder to your subtheme and start using!
 
@@ -28,3 +29,4 @@ If you're using terminal Compass:
   2. Add css/style.css into your theme info file
 
   3. Use normally by Compass watch, awesome.
+
