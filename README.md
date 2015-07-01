@@ -12,7 +12,7 @@ If you're using Sassy/Prepro:
 
   2. Configure them
 
-  3. Add scss/style.css to your sub-theme info file.
+  3. Add scss/style.scss to your sub-theme info file.
 
   4. Works like a charm
 
